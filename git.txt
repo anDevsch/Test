@@ -9,4 +9,21 @@ git push origin1 master 提交到origin1远程master分支仓库
 git clone origin git@github.com:anDevsch/Test.git
 	单纯克隆Git项目到本地，没有关联
 
-git 
+git reset
+	Reset current HEAD to the specified state
+	将当前头部重置为指定状态
+	
+git reset --hard (commit id)(HEAD、HEAD^、HEAD~100、dfadad5)
+	返回到指定版本
+	
+git log --pretty=oneline
+	
+git reflog
+	记录你的每一次命令commit ID
+	
+cat readme.txt
+	文件操作记录
+	
+git checkout -- readme.txt
+git reset HEAD file
+	
