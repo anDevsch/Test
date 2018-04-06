@@ -27,3 +27,9 @@ cat readme.txt
 git checkout -- readme.txt
 git reset HEAD file
 	
+
+	
+4.远程删除git服务器上的分支：
+	git push origin -d BranchName
+	其中-d也可以是--delete，如：
+	git push origin --delete BranchName
