@@ -1,0 +1,12 @@
+git remote origin git@github.com:anDevsch/Test.git
+	远程   远程仓库名--对应远程仓库地址
+git remote origin2 git@github.com:anDevsch/Yyy.git
+	对应另一个远程仓库
+	
+git push origin master 提交到origin远程master分支仓库
+git push origin1 master 提交到origin1远程master分支仓库
+
+git clone origin git@github.com:anDevsch/Test.git
+	单纯克隆Git项目到本地，没有关联
+
+git 
